@@ -1,0 +1,115 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"),
+  local("Roboto-Light"), local("DroidSans"), local("Tahoma"),
+  local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#title-bar-win {
+  height: 35px;
+  background-color: #d6dae0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+#logo-win {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#logo-description-win {
+  color: black;
+  font-size: 14px;
+  font-family: "system";
+  vertical-align: middle;
+  letter-spacing: 0.25px;
+  text-overflow: ellipsis;
+  color: #3c4043;
+  font-family: "Google Sans",arial,sans-serif;
+}
+
+#minimize-win {
+  color: black;
+  font-size: 12px;
+  padding: 9px 15px 7px 15px;
+}
+
+#square-win {
+  color: black;
+  font-size: 22px;
+  padding: 0px 15px 5px 15px;
+}
+
+#exit-win {
+  color: black;
+  font-size: 15px;
+  padding: 7px 17px 7px 17px;
+}
+#exit-win:hover {
+  background-color: #E81123 !important;
+}
+
+#url-bar-win {
+  height: 28px;
+  background-color: #f1f3f4;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border-bottom: 1px solid lightgray;
+}
+
+#url-bar-win::-webkit-scrollbar {
+  display: none;
+}
+
+#ssl-padlock-win {
+  user-select: none;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+
+#domain-name-win {
+  color: #000000;
+  font-size: 14px;
+  font-family: "system";
+}
+
+#domain-path-win {
+  color: #7c7c7c;
+  font-size: 14px;
+  font-family: "system";
+}
+
+#title-bar-width-win {
+  width: 100%;
+}
+
+#content-win {
+  width: 100%;
+  height: 700px;
+}
+
+#window-win {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 759px; /* title bar height + content height */
+  width: 40%;
+}

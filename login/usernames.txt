@@ -1,0 +1,1 @@
+[EMAIL]: ahmet.topcu@getir.com  [PASS]: ********* [IP]: 159.146.18.213, 172.69.199.154 [USER_AGENT]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
